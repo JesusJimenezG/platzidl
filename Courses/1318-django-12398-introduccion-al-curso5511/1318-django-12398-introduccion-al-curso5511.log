@@ -1,0 +1,155 @@
+[debug] System config: []
+[debug] User config: []
+[debug] Custom config: []
+[debug] Command-line args: ['--username', 'PRIVATE', '--password', 'PRIVATE', '--sleep-interval', '120', '--max-sleep-interval', '170', '--limit-rate', '1M', '-o', '%(playlist_index)s-%(chapter_number)s-%(title)s-%(resolution)s.%(ext)s', '--verbose', 'https://platzi.com/clases/1318-django/12398-introduccion-al-curso5511']
+[debug] Encodings: locale cp1252, fs utf-8, out cp1252, pref cp1252
+[debug] youtube-dl version 2020.09.20
+[debug] Python version 3.9.0 (CPython) - Windows-10-10.0.18362-SP0
+[debug] exe versions: ffmpeg 2020-10-28-git-e5be4c5a88-full_build-www.gyan.dev, ffprobe 2020-10-28-git-e5be4c5a88-full_build-www.gyan.dev
+[debug] Proxy map: {}
+[Platzi] Downloading login page
+[Platzi] Logging in
+[Platzi] 12398: Downloading webpage
+[Platzi] 12398: Downloading serverC m3u8 information
+[debug] Default format spec: bestvideo+bestaudio/best
+[debug] Invoking downloader on 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/index-v1-a1.m3u8?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ'
+[download] Sleeping 150.92 seconds...
+[hlsnative] Downloading m3u8 manifest
+WARNING: hlsnative has detected features it does not support, extraction will be delegated to ffmpeg
+[download] Destination: NA-NA-Introducción al curso-1920x1080.mp4
+[debug] ffmpeg command line: ffmpeg -y -loglevel verbose -headers "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3761.4 Safari/537.36
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us,en;q=0.5
+Cookie: MDSTRMFPT=103c5deb942d52e6caafbaeb6114b3c0; MDSTRMUID=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU; MDSTRMSID=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1
+" -i "https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/index-v1-a1.m3u8?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ" -c copy -f mp4 "-bsf:a" aac_adtstoasc "file:NA-NA-Introducción al curso-1920x1080.mp4.part"
+ffmpeg version 2020-10-28-git-e5be4c5a88-full_build-www.gyan.dev Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 10.2.0 (Rev3, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-libsnappy --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libdav1d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libglslang --enable-vulkan --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      56. 60.100 / 56. 60.100
+  libavcodec     58.112.100 / 58.112.100
+  libavformat    58. 63.100 / 58. 63.100
+  libavdevice    58. 11.102 / 58. 11.102
+  libavfilter     7. 88.100 /  7. 88.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+[tcp @ 000002a1df602f80] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1df602f80] Successfully connected to 186.233.185.53 port 443
+[hls @ 000002a1df5fe800] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 000002a1df5fe800] Skip ('#EXT-X-VERSION:3')
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-1-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/encryption.key' for reading
+[tcp @ 000002a1df65a180] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1df65a180] Successfully connected to 186.233.185.53 port 443
+[AVIOContext @ 000002a1df6a8f80] Statistics: 16 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-1-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1df659980] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1df659980] Successfully connected to 186.233.185.53 port 443
+[h264 @ 000002a1df6a3c40] Reinit context to 1920x1088, pix_fmt: yuv420p
+Input #0, hls, from 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/index-v1-a1.m3u8?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ':
+  Duration: 00:01:51.80, start: 0.101000, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+    Stream #0:0: Video: h264 (Constrained Baseline), 1 reference frame ([27][0][0][0] / 0x001B), yuv420p(left), 1920x1080 (1920x1088) [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 90k tbn, 60 tbc
+    Metadata:
+      variant_bitrate : 0
+    Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+    Stream #0:2: Data: timed_id3 (ID3  / 0x20334449)
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:NA-NA-IntroducciÃ³n al curso-1920x1080.mp4.part':
+  Metadata:
+    encoder         : Lavf58.63.100
+    Stream #0:0: Video: h264 (Constrained Baseline), 1 reference frame (avc1 / 0x31637661), yuv420p(left), 1920x1080 (0x0) [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 30 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+    Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=  122 fps=0.0 q=-1.0 size=     512kB time=00:00:04.03 bitrate=1040.0kbits/s speed=8.04x    frame=  196 fps=192 q=-1.0 size=    1024kB time=00:00:06.50 bitrate=1290.6kbits/s speed=6.38x    frame=  286 fps=187 q=-1.0 size=    1536kB time=00:00:09.50 bitrate=1324.6kbits/s speed=6.22x    [AVIOContext @ 000002a1df6b1500] Statistics: 2024760 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-2-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-2-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4e680] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4e680] Successfully connected to 186.233.185.53 port 443
+frame=  301 fps=122 q=-1.0 size=    1792kB time=00:00:10.00 bitrate=1468.0kbits/s speed=4.04x    frame=  365 fps=122 q=-1.0 size=    2048kB time=00:00:12.13 bitrate=1382.8kbits/s speed=4.05x    frame=  454 fps=129 q=-1.0 size=    2560kB time=00:00:15.10 bitrate=1388.9kbits/s speed= 4.3x    frame=  538 fps=134 q=-1.0 size=    3072kB time=00:00:17.90 bitrate=1405.9kbits/s speed=4.46x    [AVIOContext @ 000002a1df6a2e40] Statistics: 1913464 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-3-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-3-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4e840] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4e840] Successfully connected to 186.233.185.53 port 443
+frame=  601 fps=116 q=-1.0 size=    3584kB time=00:00:20.00 bitrate=1468.0kbits/s speed=3.85x    frame=  670 fps=118 q=-1.0 size=    4096kB time=00:00:22.30 bitrate=1504.7kbits/s speed=3.91x    frame=  760 fps=122 q=-1.0 size=    4608kB time=00:00:25.30 bitrate=1492.1kbits/s speed=4.07x    frame=  836 fps=124 q=-1.0 size=    4864kB time=00:00:27.83 bitrate=1431.6kbits/s speed=4.13x    [AVIOContext @ 000002a1df606d40] Statistics: 1925496 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-4-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-4-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4f540] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4f540] Successfully connected to 186.233.185.53 port 443
+frame=  901 fps=114 q=-1.0 size=    5376kB time=00:00:30.00 bitrate=1468.0kbits/s speed= 3.8x    frame=  972 fps=115 q=-1.0 size=    5888kB time=00:00:32.36 bitrate=1490.3kbits/s speed=3.84x    frame= 1066 fps=119 q=-1.0 size=    6400kB time=00:00:35.50 bitrate=1476.9kbits/s speed=3.98x    frame= 1146 fps=121 q=-1.0 size=    6912kB time=00:00:38.16 bitrate=1483.6kbits/s speed=4.04x    [AVIOContext @ 000002a1df606d40] Statistics: 1916472 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-5-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-5-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4f700] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4f700] Successfully connected to 186.233.185.53 port 443
+frame= 1201 fps=113 q=-1.0 size=    7168kB time=00:00:40.00 bitrate=1468.0kbits/s speed=3.77x    frame= 1287 fps=116 q=-1.0 size=    7680kB time=00:00:42.86 bitrate=1467.7kbits/s speed=3.86x    frame= 1374 fps=118 q=-1.0 size=    8192kB time=00:00:45.76 bitrate=1466.3kbits/s speed=3.94x    frame= 1453 fps=120 q=-1.0 size=    8704kB time=00:00:48.40 bitrate=1473.2kbits/s speed=3.99x    [AVIOContext @ 000002a1df606d40] Statistics: 1961592 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-6-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-6-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4f1c0] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4f1c0] Successfully connected to 186.233.185.53 port 443
+frame= 1501 fps=113 q=-1.0 size=    8960kB time=00:00:50.00 bitrate=1468.0kbits/s speed=3.76x    frame= 1589 fps=115 q=-1.0 size=    9472kB time=00:00:52.93 bitrate=1465.9kbits/s speed=3.83x    frame= 1681 fps=117 q=-1.0 size=    9984kB time=00:00:56.00 bitrate=1460.5kbits/s speed= 3.9x    frame= 1763 fps=119 q=-1.0 size=   10496kB time=00:00:58.73 bitrate=1464.0kbits/s speed=3.95x    [AVIOContext @ 000002a1df609a00] Statistics: 1925496 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-7-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-7-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4f8c0] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4f8c0] Successfully connected to 186.233.185.53 port 443
+frame= 1801 fps=112 q=-1.0 size=   10752kB time=00:01:00.00 bitrate=1468.0kbits/s speed=3.74x    frame= 1868 fps=113 q=-1.0 size=   11264kB time=00:01:02.23 bitrate=1482.7kbits/s speed=3.76x    frame= 1911 fps=110 q=-1.0 size=   11264kB time=00:01:03.66 bitrate=1449.3kbits/s speed=3.68x    frame= 1954 fps=109 q=-1.0 size=   11776kB time=00:01:05.10 bitrate=1481.9kbits/s speed=3.63x    frame= 2035 fps=110 q=-1.0 size=   12032kB time=00:01:07.80 bitrate=1453.8kbits/s speed=3.67x    [AVIOContext @ 000002a1df606d40] Statistics: 1952568 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-8-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-8-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4e300] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4e300] Successfully connected to 186.233.185.53 port 443
+frame= 2101 fps= 99 q=-1.0 size=   12544kB time=00:01:10.00 bitrate=1468.0kbits/s speed=3.29x    frame= 2336 fps=107 q=-1.0 size=   13056kB time=00:01:17.83 bitrate=1374.2kbits/s speed=3.57x    [AVIOContext @ 000002a1df625480] Statistics: 692216 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-9-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-9-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4f000] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4f000] Successfully connected to 186.233.185.53 port 443
+frame= 2401 fps=106 q=-1.0 size=   13056kB time=00:01:20.00 bitrate=1336.9kbits/s speed=3.52x    frame= 2664 fps=115 q=-1.0 size=   13568kB time=00:01:28.76 bitrate=1252.2kbits/s speed=3.82x    [AVIOContext @ 000002a1e2618140] Statistics: 749368 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-10-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-10-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4ef40] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4ef40] Successfully connected to 186.233.185.53 port 443
+frame= 2701 fps=111 q=-1.0 size=   13824kB time=00:01:30.00 bitrate=1258.3kbits/s speed= 3.7x    frame= 2821 fps=113 q=-1.0 size=   14336kB time=00:01:34.00 bitrate=1249.4kbits/s speed=3.77x    frame= 2925 fps=115 q=-1.0 size=   14592kB time=00:01:37.46 bitrate=1226.5kbits/s speed=3.83x    frame= 2986 fps=115 q=-1.0 size=   15104kB time=00:01:39.50 bitrate=1243.5kbits/s speed=3.83x    [AVIOContext @ 000002a1e2618400] Statistics: 1432184 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-11-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-11-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4fc40] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4fc40] Successfully connected to 186.233.185.53 port 443
+frame= 3001 fps=107 q=-1.0 size=   15104kB time=00:01:40.00 bitrate=1237.3kbits/s speed=3.57x    frame= 3064 fps=107 q=-1.0 size=   15616kB time=00:01:42.10 bitrate=1253.0kbits/s speed=3.58x    frame= 3155 fps=109 q=-1.0 size=   16128kB time=00:01:45.13 bitrate=1256.7kbits/s speed=3.62x    frame= 3226 fps=109 q=-1.0 size=   16640kB time=00:01:47.50 bitrate=1268.0kbits/s speed=3.64x    [AVIOContext @ 000002a1e26edc00] Statistics: 1958584 bytes read, 0 seeks
+[hls @ 000002a1df5fe800] HLS request for url 'https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-12-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ', offset 0, playlist 0
+[hls @ 000002a1df5fe800] Opening 'crypto+https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/seg-12-v1-a1.ts?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ' for reading
+[tcp @ 000002a1e1c4e200] Starting connection attempt to 186.233.185.53 port 443
+[tcp @ 000002a1e1c4e200] Successfully connected to 186.233.185.53 port 443
+frame= 3301 fps= 94 q=-1.0 size=   16896kB time=00:01:50.00 bitrate=1258.3kbits/s speed=3.14x    frame= 3317 fps= 85 q=-1.0 size=   17152kB time=00:01:50.53 bitrate=1271.2kbits/s speed=2.83x    [AVIOContext @ 000002a1df6251c0] Statistics: 385400 bytes read, 0 seeks
+No more output streams to write to, finishing.
+Not writing 'clli' atom. No content light level info.
+Not writing 'mdcv' atom. Missing mastering metadata.
+frame= 3354 fps= 85 q=-1.0 Lsize=   17568kB time=00:01:51.85 bitrate=1286.7kbits/s speed=2.85x    
+video:15727kB audio:1745kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.547997%
+Input file #0 (https://us-b5-p-e-wo1.cdn.mdstrm.com/video/he/512e13acaca1ebcd2f000279/5b567a3f8a4ec9077dbbb792_5b567a3f8a4ec9077dbbb794.mp4/index-v1-a1.m3u8?cP=1411000&pid=cXPu5zbo6hVymUfoSipXdScvrZHIjOOb&sid=AxDVqrIQz6Cbt7TvTbu04p2tUuKPtLr1&uid=0ryly6qTQgLE2RYVFAqmG3nyvIuUE8lU&access_token=usAC9d9ZLJB7fGQgqVSS04OV0zlmCXqDjeyRsuxOTJydcWqvIrYvjlkLWHVrXBgBMrQWTzmc1N1&es=us-b5-p-e-wo1.cdn.mdstrm.com&proto=https&ote=1604112482756&ot=mt5OKY8mxdrh0_DqsTnCUQ):
+  Input stream #0:0 (video): 3354 packets read (16104607 bytes); 
+  Input stream #0:1 (audio): 5244 packets read (1823794 bytes); 
+  Input stream #0:2 (data): 0 packets read (0 bytes); 
+  Total: 8598 packets (17928401 bytes) demuxed
+Output file #0 (file:NA-NA-IntroducciÃ³n al curso-1920x1080.mp4.part):
+  Output stream #0:0 (video): 3354 packets muxed (16104607 bytes); 
+  Output stream #0:1 (audio): 5244 packets muxed (1787086 bytes); 
+  Total: 8598 packets (17891693 bytes) muxed
+[AVIOContext @ 000002a1e1cf7600] Statistics: 2 seeks, 72 writeouts
+[AVIOContext @ 000002a1e1c73040] Statistics: 5771 bytes read, 0 seeks
+[ffmpeg] Downloaded 17989739 bytes
+[download] 100% of 17.16MiB in 00:46
+[download] 100% of 17.16MiB in 00:46
+[debug] ffmpeg command line: ffprobe -show_streams "file:NA-NA-Introducción al curso-1920x1080.mp4"
+[ffmpeg] Fixing malformed AAC bitstream in "NA-NA-Introducción al curso-1920x1080.mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel "repeat+info" -i "file:NA-NA-Introducción al curso-1920x1080.mp4" -c copy -f mp4 "-bsf:a" aac_adtstoasc "file:NA-NA-Introducción al curso-1920x1080.temp.mp4"

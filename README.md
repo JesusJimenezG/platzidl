@@ -4,6 +4,10 @@ Descarga automática de los cursos de Platzi con un script creado en Python util
 
 **Aprovechando el PlatziDay te puedes crear una cuenta gratuita con acceso a todos los cursos durante 48h. Nota: te restringen un total de 150 clases tomadas.**
 
+##Tener Python instalado
+
+[`Python`](https://www.python.org/) **y establecida su ruta en el PATH.**
+
 ## Instalacion youtube-dl
 
 ##### **macOS/UNIX**

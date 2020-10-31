@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys, os, re, getpass, io
 from subprocess import Popen, PIPE, STDOUT
 
@@ -113,7 +114,8 @@ def _platzidl(course):
         str -- youtue-dl CLI command
     """
     # OS parameters - Creates course path and sets current course directory
-    coursepath = os.path.join(DLPATH,course)
+    course_sinbarra = course.replace("/", '-')
+    coursepath = os.path.join(DLPATH,course_sinbarra)
     if not os.path.exists(coursepath):
         os.mkdir(coursepath)
     os.chdir(coursepath)
@@ -121,7 +123,7 @@ def _platzidl(course):
     command = _get_youtube_dl_cli_command(course)
     
     # Execute command and log stdout/stderror
-    logile = course + ".log"
+    logile = course_sinbarra + ".log"
     logpath = os.path.join(coursepath,logile)
     _cli_request(command, logpath)
 
